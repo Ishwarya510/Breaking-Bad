@@ -1,7 +1,7 @@
 import React from 'react';
 import BreakingCard from './BreakingCard';
 import  API_URL  from './Api';
-
+import "./BreakingCard.css";
 
 class App extends React.Component {
 
@@ -22,7 +22,8 @@ class App extends React.Component {
 }
 render(){
     return (
-      <div className="App">
+      <div>
+        <p  className="App">breaking bad</p>
         {
           
           this.state.feeds.map(obj => (
